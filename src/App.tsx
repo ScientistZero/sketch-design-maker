@@ -11,6 +11,7 @@ import Bills from "./pages/Bills";
 import History from "./pages/History";
 import Support from "./pages/Support";
 import NotFound from "./pages/NotFound";
+import UseCaseDiagram from "./pages/UseCaseDiagram";
 
 const queryClient = new QueryClient();
 
@@ -27,6 +28,7 @@ const App = () => (
           <Route path="/bills" element={<Bills />} />
           <Route path="/history" element={<History />} />
           <Route path="/support" element={<Support />} />
+          <Route path="/use-case-diagram" element={<UseCaseDiagram />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
