@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Bell, User, LogOut, CreditCard, ArrowRight, DollarSign, FileText, Phone, Diagram3 } from 'lucide-react';
+import { Bell, User, LogOut, CreditCard, ArrowRight, DollarSign, FileText, Phone, Network } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 const Dashboard = () => {
@@ -122,7 +122,7 @@ const Dashboard = () => {
                   className="w-full justify-start"
                   onClick={() => navigate('/use-case-diagram')}
                 >
-                  <Diagram3 className="mr-2 h-4 w-4" />
+                  <Network className="mr-2 h-4 w-4" />
                   Use Case Diagram
                 </Button>
               </li>
